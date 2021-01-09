@@ -1,0 +1,22 @@
+/* A címsorok és menük betűtípusa:
+font-family: 'Catamaran', sans-serif;
+
+Gombok szövege, felső menü linkek:
+font-family: 'Lato', sans-serif;
+
+Bekezdések és footer:
+font-family: 'Mulish', sans-serif; */
+
+.first--block {
+    background: linear-gradient(to-right, red, blue) url("img\bg-pattern.png") repeat;
+}
+
+.font--navAndHeader {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.img--relative {
+    border-radius: 1rem;
+    position: relative;
+    bottom: 880px;
+}
