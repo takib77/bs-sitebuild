@@ -7,16 +7,18 @@ font-family: 'Lato', sans-serif;
 Bekezdések és footer:
 font-family: 'Mulish', sans-serif; */
 
-.first--block {
-    background: linear-gradient(to-right, red, blue) url("img\bg-pattern.png") repeat;
+.body-bg {
+    background: url(/img/bg-pattern.png) repeat, linear-gradient(to right, #dc2430,#7b4397);
 }
 
 .font--navAndHeader {
     font-family: 'Catamaran', sans-serif;
 }
 
-.img--relative {
-    border-radius: 1rem;
-    position: relative;
-    bottom: 880px;
+.img--inner {
+    border-radius: 1%;
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    width: 84%;
 }

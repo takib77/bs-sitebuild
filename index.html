@@ -13,18 +13,18 @@
     <title>Start Bootstrap</title>
 </head>
 
-<body>
-    <div class="container-fluid p-0 first--block">
+<body class="body-bg">
+    <div class="container p-0">
         <header class="sticky-top font--navAndHeader">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                <a class="text-warning" href="#">Start Bootstrap</a>
+                <a class="nav-link text-warning" href="#">Start Bootstrap</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNavbar"
                     aria-controls="headerNavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="headerNavbar">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-link" href="#">Download</a>
+                        <a class="nav-link" href="/test.html">Download</a>
                         <a class="nav-link" href="#">Features</a>
                         <a class="nav-link" href="#">Contact</a>
                     </div>
@@ -32,16 +32,19 @@
             </nav>
         </header>
         <section class="py-5">
-            <div class="card border-none mx-auto w-50">
-                <div class="card-body bg-dark d-flex flex-column">
-                    <h1 class="card-title text-center text-white">New Age is an app landing page that <br>
-                        will help you beautifully showcase <br>
-                        your new mobile app, or anything else!</h1>
-                    <a href="#" class="btn btn-transparent text-white border border-white rounded-pill mx-auto">Start
-                        now for
-                        free!</a>
-                    <img src="/img/phone.png" class="card-img" alt="Phone">
-                    <img src="/img/demo-screen-1.jpg" class="card-img img--relative" alt="Demo-screen">
+            <div class="container sm-mx-3">
+                <div class="row">
+                    <div class="col-sm-6 sm-mx-5 mx-0 mt-5 bg-transparent d-flex flex-column">
+                        <h1 class="h2 text-center text-sm-left text-white mb-5 font--header">New Age is an app landing
+                            page that will help you beautifully showcase your new mobile app, or anything else!</h1>
+                        <a href="#"
+                            class="btn btn-transparent text-white border border-white rounded-pill mx-auto px-5 mb-5">Start
+                            now for free!</a>
+                    </div>
+                    <div class="col-sm-6 position-relative col-m-5 col-sm-m-0">
+                        <img src="/img/demo-screen-1.jpg" class="img-fluid img--inner" alt="Demo-screen">
+                        <img src="/img/phone.png" class="card-img" alt="Phone">
+                    </div>
                 </div>
             </div>
         </section>
