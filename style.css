@@ -11,14 +11,22 @@ font-family: 'Mulish', sans-serif; */
     background: url(/img/bg-pattern.png) repeat, linear-gradient(to right, #dc2430,#7b4397);
 }
 
-.font--navAndHeader {
-    font-family: 'Catamaran', sans-serif;
-}
-
 .img--inner {
     border-radius: 1%;
     position: absolute;
     left: 8%;
     top: 10%;
     width: 84%;
+}
+
+.navbar-brand {
+    color: #e5a350 !important;
+}
+
+.nav-link {
+    color:#d4afc5 !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #ffffff !important;
 }
