@@ -47,3 +47,19 @@ font-family: 'Mulish', sans-serif; */
 .utf--icons {
     font-size: 7rem;
 }
+
+.bg--image {
+    background-image: url(/img/bg-cta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .8;
+}
+
+.bg--black {
+    background-color: #000000;
+}
+
+.text--fb {
+    background-color: #3b5998;
+}
