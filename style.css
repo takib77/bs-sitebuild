@@ -19,6 +19,14 @@ font-family: 'Mulish', sans-serif; */
     width: 84%;
 }
 
+.img--inner2 {
+    border-radius: 1%;
+    position: absolute;
+    left: 8%;
+    top: 14%;
+    width: 84%;
+}
+
 .navbar-brand {
     color: #e5a350 !important;
 }
@@ -29,4 +37,13 @@ font-family: 'Mulish', sans-serif; */
 
 .navbar-brand:hover, .nav-link:hover {
     color: #ffffff !important;
+}
+
+.text--size {
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.utf--icons {
+    font-size: 7rem;
 }
