@@ -27,6 +27,22 @@ font-family: 'Mulish', sans-serif; */
     width: 84%;
 }
 
+/*btn btn-transparent text-white border border-white rounded-pill mx-auto px-5 mb-5 */
+
+.start a {
+    background-color: transparent;
+    border: solid .1rem #ffffff;
+    border-radius: 1rem;
+    color: #ffffff;
+    margin: 0 auto 3rem ;
+    padding: .5rem 3rem;
+    transition: 300s;
+}
+
+.start a:hover {
+    background-color: #ffff00 !important;
+}
+
 .text--size {
     font-size: 5rem;
     font-weight: 200;
@@ -48,6 +64,10 @@ font-family: 'Mulish', sans-serif; */
     background-color: #000000;
 }
 
-.text--fb {
+.bg--tw {
+    background-color: #1da1f2;
+}
+
+.bg--fb {
     background-color: #3b5998;
 }
