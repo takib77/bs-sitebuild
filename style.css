@@ -27,18 +27,6 @@ font-family: 'Mulish', sans-serif; */
     width: 84%;
 }
 
-.navbar-brand {
-    color: #e5a350 !important;
-}
-
-.nav-link {
-    color:#d4afc5 !important;
-}
-
-.navbar-brand:hover, .nav-link:hover {
-    color: #ffffff !important;
-}
-
 .text--size {
     font-size: 5rem;
     font-weight: 200;
